@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background: salmon;
+    padding: 10px 30px;
+}
+header > *{               /* ali ta7t mino alatool   ely gowa el header*/
+    display: inline-block;
+    vertical-align: middle;
+}
+#toplogo{
+    border-radius: 50%;
+}
+#toplogo{
+    width: 80px;
+    height: 80px;
+}
+.circle{
+    /*border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 90px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;*/
+
+    border-radius:  10px;
+}
+.menuDiv{
+    background: rosybrown;
+    display: inline-block;
+    float: right;
+}
+
+.menuDiv ul li{                                 /*<!-- remove dots beside the list-->*/
+    list-style: none;
+    display: inline-block;                      /*so that they are beside each other8*/
+}
+
+.menuDiv ul li a {
+    color: red;
+    text-decoration: none;
+
+    padding: 25px 20px; /*<!-- remove dots beside the list-->*/ /*so that they are beside each other8*/
+
+    display: inline-block;
+
+    transition: ease-in-out .2s;
+}
+.menuDiv > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menuDiv ul li a:hover{
+    color: white;
+    font-size: large;
+    background: salmon;
+}
+.avatar{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+a{cursor: pointer}
+
+
+
+
+
+
+
+
+
+
+
+/*
+!*selector by tag*!
+img{
+    width: 300px;
+    margin: 10px;
+    background: brown;
+    padding: 10px 80px;
+    border: hotpink 5px solid;
+}
+*{
+    !*
+    box-sizing: border-box   !important;
+    *!
+    padding: 0px;
+    margin: 0px;
+}
+body{
+background:gray;
+}
+
+header{
+    background: gray;
+}
+
+footer{
+    background: yellow;
+}
+
+div {
+    background: rgba(255,140,0,.1)
+}
+!*selector by id*!
+   #top-menu{
+    background: olive;
+}
+
+!*selector by class*!
+.bgred{
+background: rosybrown;
+}
+!*any a inside ul color it*!
+ul a{
+background: beige;
+
+}
+!*change only the size of images which is inside the main*!
+main div div img{
+    width: 200px;
+}
+p,a,h2 {
+    color: brown;
+
+    text-shadow: 3px 0px 30px beige;
+
+    text-align: center;
+
+    text-decoration: underline;
+
+    font-family: 'Square', cursive;
+    font-size: 12px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+#toplogo{
+        background: olive;
+        padding: 50px;
+        border: rosybrown 5px solid;
+        margin: 20px;
+
+}*/
